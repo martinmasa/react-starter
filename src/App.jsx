@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  color: #353535;
+`;
 
 class App extends Component {
   state = {
@@ -9,9 +14,9 @@ class App extends Component {
     const { name } = this.state;
 
     return (
-      <div>
+      <Wrapper>
         <h1>Hello {name}!</h1>
-      </div>
+      </Wrapper>
     );
   }
 }
