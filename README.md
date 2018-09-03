@@ -6,3 +6,5 @@ Basic starter for a react project.
 
 - [ESLint](https://eslint.org/)
 - [Husky](https://github.com/typicode/husky)
+- [Styled Components](https://www.styled-components.com/)
+- [Stylelint](https://github.com/stylelint/stylelint)
