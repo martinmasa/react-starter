@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   color: #353535;
+  text-align: center;
 `;
 
 class App extends Component {
@@ -15,7 +16,8 @@ class App extends Component {
 
     return (
       <Wrapper>
-        <h1>Hello {name}!</h1>
+        <h1>React Starter</h1>
+        <p>Hello {name}! Starter for a react project configured with some basic tools.</p>
       </Wrapper>
     );
   }
