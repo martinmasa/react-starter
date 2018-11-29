@@ -19,8 +19,10 @@ class App extends Component {
     return (
       <Wrapper>
         <GlobalStyle />
-        <h1>React Starter</h1>
-        <p>Hello {name}! Starter for a react project configured with some basic tools.</p>
+        <h1 data-testid="page-title">React Starter</h1>
+        <p data-testid="page-intro">
+          Hello {name}! Starter for a react project configured with some basic tools.
+        </p>
       </Wrapper>
     );
   }
