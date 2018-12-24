@@ -11,9 +11,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "test:ci": "CI=true react-scripts test --env=jsdom",
+    "test:cov": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.es6 ./src/",
-    "test:ci": "CI=true react-scripts test --env=jsdom"
+    "lint": "eslint --ext .js,.jsx,.es6 ./src/"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
