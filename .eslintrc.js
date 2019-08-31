@@ -42,6 +42,8 @@ module.exports = {
     'react/prop-types': OFF,
     'react/require-default-props': OFF,
     'react/jsx-one-expression-per-line': OFF,
-    'react/jsx-filename-extension': OFF
+    'react/jsx-curly-newline': OFF,
+    'react/jsx-filename-extension': OFF,
+    'react/state-in-constructor': OFF
   }
 };
